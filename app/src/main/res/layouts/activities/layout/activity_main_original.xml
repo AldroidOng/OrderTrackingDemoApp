@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.biz.aceras.ordertracking.activities.MainActivity">
+    <!--android:theme="@style/AppTheme.MyAppTheme"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <!-- period control the change image timing in milliseconds -->
+        <com.biz.aceras.ordertracking.image_slider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/boarder"
+            app:auto_cycle="true"
+            app:corner_radius="0"
+            app:delay="0"
+            app:error_image="@drawable/image_not_found"
+            app:period="3000"
+            app:selected_dot="@drawable/default_selected_dot"
+            app:unselected_dot="@drawable/default_unselected_dot" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/main_activity_rounded_corner_green_gradient"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivSalesOrderTracking"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/sales_order_tracking2" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Sales Order Tracking System"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search by:" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioOrderNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Order Number" />
+
+                <EditText
+                    android:id="@+id/etTrackNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_corner"
+                    android:gravity="center"
+                    android:hint="Order Tracking No."
+                    android:inputType="phone"
+                    android:text="3670001286" />
+
+                <RadioButton
+                    android:id="@+id/radioDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF">
+
+                        <Spinner
+                            android:id="@+id/spinnerProductType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2" />
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/etProductDescription"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/overall_margin"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/rounded_corner"
+                        android:gravity="center"
+                        android:hint="Product Description"
+                        android:inputType="text" />
+                </LinearLayout>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnTrack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/overall_margin"
+                android:background="@drawable/resize_height_blue_background"
+                android:text="Search"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/overall_margin"
+            android:text="Oustanding Orders:"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewOustandingList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boarder"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+</LinearLayout>

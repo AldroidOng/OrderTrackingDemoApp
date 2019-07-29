@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/overall_margin"
+    tools:context="com.biz.aceras.ordertracking.activities.MainActivity">
+    <!--android:background="@drawable/register_background"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#CC494848"
+            android:orientation="vertical"
+            android:padding="@dimen/overall_margin">
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="120dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginBottom="100dp"-->
+                <!--android:src="@drawable/order_tracking_text" />-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/april" />
+
+            <TextView
+                android:layout_marginBottom="100dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:text="Order Tracking System"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textColorHint="#F6F6F6"
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white" />
+            <!--android:textColor="@color/black"-->
+            <!--android:backgroundTint="@color/white"-->
+
+            <EditText
+                android:textColorHint="#F6F6F6"
+                android:id="@+id/etPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:hint="Phone No."
+                android:inputType="phone"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/resize_height_blue_background"
+                android:text="Register"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <!--<TextView-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#CC494848"-->
+    <!--android:text="@string/welcome_to"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@color/white"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/sales_order_tracking_system"-->
+    <!--android:background="#CC494848"-->
+    <!--android:textSize="25dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@color/white"/>-->
+
+</LinearLayout>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="@dimen/overall_margin"
+        android:paddingBottom="@dimen/overall_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boarder"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="@dimen/overall_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Results based on: " />
+
+        <TextView
+            android:layout_marginLeft="@dimen/overall_margin"
+            android:id="@+id/tvProductTypeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_type_search_input" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/overall_margin"
+            android:id="@+id/tvProductDescInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_desc_search_input" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTrackDescriptionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

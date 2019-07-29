@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigasi ke beranda"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigasi naik"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Opsi lain"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Kueri penelusuran"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Bagikan ke <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="app_download">App Download</string>
+    <string name="app_name">Order Tracking</string>
+    <string name="back_button_id">16908332</string>
+    <string name="cache_banner_list">cache_banner_list</string>
+    <string name="cache_banner_list_data">
+        [{\"BannerImage\":\"http://www.rgei.com/images/banners/Climate_EN_Home_01.jpg\",
+        \"BannerLink\":\"http://rgepeoplematters.globalnet.lcl/\"},
+        {\"BannerImage\":\"http://www.rgei.com/images/Images/Home/Homepage_RGE_Group_Graphic.jpg\",
+        \"BannerLink\":\"https://xchange.rgei.com/\"},
+        {\"BannerImage\":\"http://www.inside-rge.com/wp-content/uploads/2018/10/Apical-Website-Homepage-Feature.jpg\",
+        \"BannerLink\":\"https://portal.averis.biz\"},
+        {\"BannerImage\":\"http://www.aprilasia.com/images/sliders/april-pefc-slider.png\",
+        \"BannerLink\":\"https://portal.rgei.com/\"}]</string>
+    <string name="cache_banner_swipeable">cache_banner_swipeable</string>
+    <string name="cache_banner_swipeable_data">
+        [{\"BannerImage\":\"http://www.asiasymbol.com/en/images/banner.jpg\",
+        \"BannerLink\":\"http://rgepeoplematters.globalnet.lcl/\"},
+        {\"BannerImage\":\"http://www.rgei.com/images/banners/Climate_EN_Home_01.jpg\",
+        \"BannerLink\":\"https://xchange.rgei.com/\"},
+        {\"BannerImage\":\"http://www.rgei.com/images/Images/Home/Homepage_RGE_Group_Graphic.jpg\",
+        \"BannerLink\":\"https://portal.averis.biz\"},
+        {\"BannerImage\":\"http://www.inside-rge.com/wp-content/uploads/2018/10/Apical-Website-Homepage-Feature.jpg\",
+        \"BannerLink\":\"https://portal.rgei.com/\"}]</string>
+    <string name="cache_order">cache_order</string>
+    <string name="cache_order_data">{\"Header\":{\"ConsigneeName\":\"UPDATE PAPER SDN BHD\",\"CustomerName\":\"UPDATE PAPER SDN BHD\",\"Incoterms\":\"CIF\",\"OrderNumber\":\"3250001172\",\"PONumber\":\"PO10314\",\"ProductionOrder\":\"7RMY–00282\",\"SalesOfficeText\":\"Malaysia Sales Paper\",\"SalesOrderItems\":[]},\"Body\":[{\"ActualConfirmed\":\"2017–03–03T00:00:00\",\"ActualProduced\":\"2017-05-05T00:00:00\",\"ActualShipped\":\"2017-05-15T00:00:00\",\"OrderTaken\":\"2017-03-02T00:00:00\",\"FinalDestination\":\"KOTA KINABALU\",\"TargetShipped\":\"2017-05-11T00:00:00\",\"ItemNumber\":\"000020\",\"overallStatus\":\"\",\"ProductDesc\":\"PAPERONE COPIER (PEFC) (PDG), HW, 80gsm, 210x297mm(A4)\",\"ProductQty\":\"8.000\",\"ProductUOM\":\"\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2017-03-16T00:00:00\",\"TargetDelivered\":\"2017-05-27T00:00:00\",\"TargetProduced\":\"2017-05-08T00:00:00\",\"intItemNumber\":0}]}</string>
+    <string name="cache_order_description_list">cache_order_description_list</string>
+    <string name="cache_order_description_list_data">[{\"ActualConfirmed\":\"2018-03-27T00:00:00\",\"OrderTaken\":\"2018-03-22T00:00:00\",\"FinalDestination\":\"KUCHING\",\"TargetShipped\":\"2018-05-10T00:00:00\",\"ItemNumber\":\"000010\",\"OrderNumber\":\"3670002043\",\"ProductDesc\":\"ARTICA, HW, 70gsm, 210x297mm(A4)\",\"ProductQty\":\"5.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-04-05T00:00:00\",\"TargetDelivered\":\"2018-05-27T00:00:00\",\"TargetProduced\":\"2018-05-07T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2018-03-22T00:00:00\",\"OrderTaken\":\"2018-03-06T00:00:00\",\"FinalDestination\":\"MANILA SOUTH HARBOUR\",\"TargetShipped\":\"2018-05-07T00:00:00\",\"ItemNumber\":\"000010\",\"OrderNumber\":\"3670001965\",\"ProductDesc\":\"HARD COPY, HW, 70gsm, 216x279mm(QTO)\",\"ProductQty\":\"300.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-03-20T00:00:00\",\"TargetDelivered\":\"2018-05-22T00:00:00\",\"TargetProduced\":\"2018-05-04T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2018-03-22T00:00:00\",\"OrderTaken\":\"2018-03-06T00:00:00\",\"FinalDestination\":\"MANILA SOUTH HARBOUR\",\"TargetShipped\":\"2018-05-16T00:00:00\",\"ItemNumber\":\"000090\",\"OrderNumber\":\"3670001966\",\"ProductDesc\":\"HARD COPY, HW, 80gsm, 210x297mm(A4)\",\"ProductQty\":\"25.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-03-20T00:00:00\",\"TargetDelivered\":\"2018-05-29T00:00:00\",\"TargetProduced\":\"2018-05-13T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2018-03-22T00:00:00\",\"OrderTaken\":\"2018-03-06T00:00:00\",\"FinalDestination\":\"MANILA SOUTH HARBOUR\",\"TargetShipped\":\"2018-05-16T00:00:00\",\"ItemNumber\":\"000070\",\"OrderNumber\":\"3670001966\",\"ProductDesc\":\"HARD COPY, HW, 80gsm, 216x279mm(QTO)\",\"ProductQty\":\"25.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-03-20T00:00:00\",\"TargetDelivered\":\"2018-05-29T00:00:00\",\"TargetProduced\":\"2018-05-13T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2018-02-07T00:00:00\",\"ActualDelivered\":\"2018-04-21T00:00:00\",\"ActualShipped\":\"2018-03-31T00:00:00\",\"OrderTaken\":\"2018-01-15T00:00:00\",\"FinalDestination\":\"SHUWAIKH\",\"TargetShipped\":\"2018-03-27T00:00:00\",\"ItemNumber\":\"000010\",\"OrderNumber\":\"3250007359\",\"ProductDesc\":\"ATLAS, HW, 80gsm, 210x297mm(A4)\",\"ProductQty\":\"45.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-01-29T00:00:00\",\"TargetDelivered\":\"2018-04-20T00:00:00\",\"TargetProduced\":\"2018-03-24T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2017-12-23T00:00:00\",\"ActualDelivered\":\"2018-02-17T00:00:00\",\"ActualProduced\":\"2018-02-06T00:00:00\",\"ActualShipped\":\"2018-02-12T00:00:00\",\"OrderTaken\":\"2017-12-20T00:00:00\",\"FinalDestination\":\"MANILA SOUTH HARBOUR\",\"TargetShipped\":\"2018-02-18T00:00:00\",\"ItemNumber\":\"000070\",\"OrderNumber\":\"3250006687\",\"ProductDesc\":\"HARD COPY, HW, 80gsm, 216x279mm(QTO)\",\"ProductQty\":\"105.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-01-03T00:00:00\",\"TargetDelivered\":\"2018-03-04T00:00:00\",\"TargetProduced\":\"2018-02-15T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2017-12-23T00:00:00\",\"ActualDelivered\":\"2018-02-24T00:00:00\",\"ActualProduced\":\"2018-02-07T00:00:00\",\"ActualShipped\":\"2018-02-12T00:00:00\",\"OrderTaken\":\"2017-12-20T00:00:00\",\"FinalDestination\":\"MANILA SOUTH HARBOUR\",\"TargetShipped\":\"2018-02-18T00:00:00\",\"ItemNumber\":\"000080\",\"OrderNumber\":\"3250006687\",\"ProductDesc\":\"HARD COPY, HW, 80gsm, 216x330mm(F4)\",\"ProductQty\":\"50.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2018-01-03T00:00:00\",\"TargetDelivered\":\"2018-02-25T00:00:00\",\"TargetProduced\":\"2018-02-15T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2017-07-26T00:00:00\",\"ActualDelivered\":\"2017-10-22T00:00:00\",\"ActualProduced\":\"2017-09-28T00:00:00\",\"ActualShipped\":\"2017-09-30T00:00:00\",\"OrderTaken\":\"2017-07-14T00:00:00\",\"FinalDestination\":\"DAMMAM\",\"TargetShipped\":\"2017-10-04T00:00:00\",\"ItemNumber\":\"000010\",\"OrderNumber\":\"3250004355\",\"ProductDesc\":\"ATLAS, HW, 80gsm, 210x297mm(A4)\",\"ProductQty\":\"240.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2017-07-28T00:00:00\",\"TargetDelivered\":\"2017-10-21T00:00:00\",\"TargetProduced\":\"2017-10-01T00:00:00\",\"intItemNumber\":0},{\"ActualConfirmed\":\"2017-06-09T00:00:00\",\"ActualDelivered\":\"2017-08-30T00:00:00\",\"ActualProduced\":\"2017-08-09T00:00:00\",\"ActualShipped\":\"2017-08-11T00:00:00\",\"OrderTaken\":\"2017-05-16T00:00:00\",\"FinalDestination\":\"JEDDAH\",\"TargetShipped\":\"2017-08-13T00:00:00\",\"ItemNumber\":\"000010\",\"OrderNumber\":\"3250003629\",\"ProductDesc\":\"ATLAS, HW, 80gsm, 210x297mm(A4)\",\"ProductQty\":\"210.000\",\"status\":\"\",\"statusDate\":\"\",\"TargetConfirmed\":\"2017-05-30T00:00:00\",\"TargetDelivered\":\"2017-08-30T00:00:00\",\"TargetProduced\":\"2017-08-10T00:00:00\",\"intItemNumber\":0}]</string>
+    <string name="cache_outstanding_order_list">cache_outstanding_order_list</string>
+    <string name="cache_outstanding_order_list_data">[{\"ConsigneeName\":\"UPDATE PAPER SDN BHD\",\"CustomerName\":\"UPDATE PAPER SDN BHD\",\"Incoterms\":\"CIF\",\"OrderNumber\":\"3250001172\",\"PONumber\":\"PO10314\",\"ProductionOrder\":\"7RMY-00282\",\"SalesOfficeText\":\"Malaysia Sales Paper\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"SPICERS PAPER (M) SDN BHD\",\"CustomerName\":\"SPICERS PAPER (M) SDN. BHD.\",\"Incoterms\":\"CIF\",\"OrderNumber\":\"3250001897\",\"PONumber\":\"PO23680-A\",\"ProductionOrder\":\"7RMY-00447\",\"SalesOfficeText\":\"Malaysia Sales Paper\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"CustomerName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3250008034\",\"PONumber\":\"HK-053-2018\",\"ProductionOrder\":\"8RHK-00015\",\"SalesOfficeText\":\"Mid.East Market Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"CustomerName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3250008034\",\"PONumber\":\"HK-053-2018\",\"ProductionOrder\":\"8RHK-00015\",\"SalesOfficeText\":\"Mid.East Market Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"CustomerName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3250008034\",\"PONumber\":\"HK-053-2018\",\"ProductionOrder\":\"8RHK-00015\",\"SalesOfficeText\":\"Mid.East Market Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"CustomerName\":\"ASSUDAMAL &amp; SONS (HK) LIMITED\",\"Incoterms\":\"FOB\",\"OrderNumber\":\"3250008035\",\"PONumber\":\"HK-058-2018\",\"ProductionOrder\":\"8RHK-00016\",\"SalesOfficeText\":\"Mid.East Market Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"STRAITS GLOBAL PTE LTD.\",\"CustomerName\":\"STRAITS GLOBAL PTE LTD.\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3250008204\",\"PONumber\":\"IN 181/18\",\"ProductionOrder\":\"8RSG-00226\",\"SalesOfficeText\":\"India Market Paper\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"STRAITS GLOBAL PTE LTD.\",\"CustomerName\":\"STRAITS GLOBAL PTE LTD.\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3250008204\",\"PONumber\":\"IN 181/18\",\"ProductionOrder\":\"8RSG-00226\",\"SalesOfficeText\":\"India Market Paper\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"VANSON PAPER INDUSTRIAL CORPORATION\",\"CustomerName\":\"VANSON PAPER INDUSTRIAL CORPORATION\",\"Incoterms\":\"CIF\",\"OrderNumber\":\"3252000820\",\"PONumber\":\"AG-248/17\",\"SalesOfficeText\":\"Singapore Sales Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"PRINT UNIVERSE GRAPHICS AND PACKAGI\",\"CustomerName\":\"ASIAN STATIONERY CORP.\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3252001068\",\"PONumber\":\"AG-387/17\",\"SalesOfficeText\":\"Singapore Sales Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"LATHRON GENERAL TRADING\",\"CustomerName\":\"LATHRON GENERAL TRADING\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3270038940\",\"PONumber\":\"AE-028-2016\",\"ProductionOrder\":\"6RAE-00013\",\"SalesOfficeText\":\"Singapore Sales Ppr\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"PROMEDIA TRADING PRIVATE LIMITED\",\"CustomerName\":\"STRAITS GLOBAL PTE LTD.\",\"Incoterms\":\"CFR\",\"OrderNumber\":\"3270040173\",\"PONumber\":\"IN 082/16\",\"ProductionOrder\":\"6RIN-00160\",\"SalesOfficeText\":\"India Market Paper\",\"SalesOrderItems\":[]},{\"ConsigneeName\":\"TELE-PAPER (M) SDN BHD\",\"CustomerName\":\"TELE-PAPER (M) SDN BHD\",\"Incoterms\":\"CIF\",\"OrderNumber\":\"3270040306\",\"PONumber\":\"IPO16-00121/466\",\"ProductionOrder\":\"6RMY-00604\",\"SalesOfficeText\":\"Malaysia Sales Paper\",\"SalesOrderItems\":[]}]</string>
+    <string name="cache_product_type">cache_product_type</string>
+    <string name="cache_product_type_data">[{\"Down\":\"COB\"},{\"Down\":\"Customer Roll\"},{\"Down\":\"FOLIO\"},{\"Down\":\"MOB\"},{\"Down\":\"MOB-\"},{\"Down\":\"P1\"}]</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="connection_error_text">Unable to connect with the server. Check your internet connection and try again.</string>
+    <string name="enable_permission">Enable Permission</string>
+    <string name="enable_permission_text">The necessary perimission/s is/are not granted for this app.
+    In order to proceed with using this app, kindly enable the permissoin/s manually in your phone settings.</string>
+    <string name="incorrect_otp_text">The 6-digit code entered is incorrect.</string>
+    <string name="max_incorrect_otp_text">You have exceeded the limit for entering the 6-digit code incorrectly.</string>
+    <string name="no_internet_connection">No internet connection detected</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="permission_denied_text">Without this permission, the app is unable to retrieve the IMEI
+        number of the phone to verify for further activities when using this app.</string>
+    <string name="pref_activation_code">activation_code</string>
+    <string name="pref_registration_id">registration_id</string>
+    <string name="pref_session_id">session_token_id</string>
+    <string name="product_desc_search_input">2. Product Description: %1$s</string>
+    <string name="product_type_search_input">1. Product Type: %1$s</string>
+    <string name="sales_order_tracking_system">Sales Order Tracking System</string>
+    <string name="sample_order_no">3670001286</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Telusuri"</string>
+    <string name="search_order_by"><u>Search order by:</u>.</string>
+    <string name="session_expired">Session Expired</string>
+    <string name="session_expired_text">Do you want to continue tracking?\nSelect on OK to verify the On-Time Password again and continue tracking. Else, select on Exit to close the app.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="terms_of_service_and_privacy_policy">Terms of Service &amp; Privacy Policy</string>
+    <string name="unauthorized_code">401</string>
+    <string name="user_not_found_code">403</string>
+    <string name="user_not_found_text">
+        <b>The login email &amp; password is currently registered under a different phone and can\'t be used on multiple devices at the same time</b>\n\nWould you like to continue with registering the email &amp; phone number to this device?
+    </string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="wrong_activation_code_text">The entered activation code is incorrect.</string>
+</resources>

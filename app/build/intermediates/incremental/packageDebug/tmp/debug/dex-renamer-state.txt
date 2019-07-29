@@ -1,0 +1,4 @@
+#Fri Jul 26 16:20:08 SGT 2019
+base.0=C\:\\Users\\Alvin Ong\\Desktop\\OrderTrackingDemoApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

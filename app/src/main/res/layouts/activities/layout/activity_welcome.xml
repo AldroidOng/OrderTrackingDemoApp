@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/overall_margin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/april" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#CC494848"
+        android:text="@string/welcome_to"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CC494848"
+        android:text="@string/sales_order_tracking_system"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.5" />-->
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/overall_margin"
+        android:layout_marginBottom="@dimen/overall_margin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:clipChildren="true">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/llLoader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/overall_margin"
+            android:background="#CC494848"
+            android:orientation="vertical"
+            android:padding="@dimen/overall_margin">
+
+            <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ivLoader"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/overall_margin"
+                app:SpinKit_Color="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="      Loading      "
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:background="#CC494848"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:id="@+id/recyclerViewBannerList"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scrollbars="vertical"-->
+                <!--android:visibility="invisible" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutConnectWithUs"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tvConnectWithUs"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:text="Connect with us "
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/overall_margin"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ivFacebook"
+                android:layout_height="40dp"
+                android:layout_width="40dp"/>
+
+            <ImageView
+                android:id="@+id/ivInstagram"
+                android:layout_marginLeft="@dimen/overall_margin"
+                android:layout_gravity="center_vertical"
+                android:layout_height="40dp"
+                android:layout_width="40dp" />
+
+            <ImageView
+                android:id="@+id/ivYouTube"
+                android:layout_marginLeft="@dimen/overall_margin"
+                android:layout_gravity="center_vertical"
+                android:layout_height="40dp"
+                android:layout_width="40dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/pbWelcome"
+            style="@style/NumberProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:progress_current="0" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFB00"
+            android:text="Tap Here To Continue >>>"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>
