@@ -1,4 +1,0 @@
-#Fri Jul 26 13:32:59 SGT 2019
-base.0=C\:\\Users\\Alvin Ong\\Desktop\\OrderTrackingDemoApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex

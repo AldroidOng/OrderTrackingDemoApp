@@ -20,7 +20,6 @@
         android:roundIcon="@drawable/icon"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.biz.aceras.ordertracking.activities.SplashActivity"

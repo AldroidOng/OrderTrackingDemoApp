@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Fri Jul 26 19:58:37 SGT 2019
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\Alvin Ong\\Desktop\\OrderTrackingDemoApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\out
-0.path=classes.dex
-0.set=DEX
-count=1
