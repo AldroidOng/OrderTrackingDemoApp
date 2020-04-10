@@ -44,6 +44,7 @@ import javax.security.auth.Destroyable
  */
 object StandardObjects {
 
+    val sampleImei = "12345"
     var webViewURL = ""
 
     fun checkPermissionGranted(context: Context): Pair<Boolean, AlertDialog?> {
@@ -132,9 +133,11 @@ object StandardObjects {
 
             if (StandardObjects.checkPermissionGranted(context).first) {
                 if (android.os.Build.VERSION.SDK_INT >= 26) {
-                    loginInfo.imeiNo = tm.getImei()
+//                    loginInfo.imeiNo = tm.getImei()
+                    loginInfo.imeiNo = StandardObjects.sampleImei
                 } else {
-                    loginInfo.imeiNo = tm.getDeviceId()
+                    loginInfo.imeiNo = StandardObjects.sampleImei
+//                    loginInfo.imeiNo = tm.getDeviceId()
                 }
             } else {
                 StandardObjects.checkPermissionGranted(context).second!!.show()

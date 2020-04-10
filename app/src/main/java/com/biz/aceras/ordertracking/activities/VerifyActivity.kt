@@ -15,6 +15,7 @@ import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import android.widget.Toast
 import com.biz.aceras.ordertracking.*
+import com.biz.aceras.ordertracking.StandardObjects.sampleImei
 import com.biz.aceras.ordertracking.serializer_class.*
 import com.google.gson.Gson
 import com.google.gson.JsonObject
@@ -152,9 +153,11 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
                     if (isMatch()) {
                         // Get Imei No.
                         if (android.os.Build.VERSION.SDK_INT >= 26) {
-                            verifyInfo.imeiNo = tm!!.getImei()
+//                            verifyInfo.imeiNo = tm!!.getImei()
+                            verifyInfo.imeiNo = sampleImei
                         } else {
-                            verifyInfo.imeiNo = tm!!.getDeviceId()
+                            verifyInfo.imeiNo = sampleImei
+//                            verifyInfo.imeiNo = tm!!.getDeviceId()
                         }
                         // Get User ID from shared preference
                         verifyInfo.registrationID = SharedPreference(applicationContext).getValueString(getString(R.string.pref_registration_id)).toString()
@@ -194,9 +197,11 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
                             loginInfo.registrationID = SharedPreference(applicationContext).getValueString(getString(R.string.pref_registration_id))!!
 
                             if (android.os.Build.VERSION.SDK_INT >= 26) {
-                                loginInfo.imeiNo = tm.getImei()
+//                                loginInfo.imeiNo = tm.getImei()
+                                loginInfo.imeiNo = StandardObjects.sampleImei
                             } else {
-                                loginInfo.imeiNo = tm.getDeviceId()
+//                                loginInfo.imeiNo = tm.getDeviceId()
+                                loginInfo.imeiNo = StandardObjects.sampleImei
                             }
 
                             val min = 0
@@ -260,9 +265,11 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
         trackInfo.currentNumberOfRecord = "0"
 
         if (android.os.Build.VERSION.SDK_INT >= 26) {
-            trackInfo.imeiNo = tm!!.getImei()
+            trackInfo.imeiNo = sampleImei
+//            trackInfo.imeiNo = tm!!.getImei()
         } else {
-            trackInfo.imeiNo = tm!!.getDeviceId()
+            trackInfo.imeiNo = sampleImei
+//            trackInfo.imeiNo = tm!!.getDeviceId()
         }
 
         Log.d("VerifyRegistrationID", trackInfo.registrationID)
@@ -289,9 +296,11 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
         getProductTypeInfo.registrationID = SharedPreference(applicationContext).getValueString(getString(R.string.pref_registration_id))!!
         getProductTypeInfo.sessionTokenID = SharedPreference(applicationContext).getValueString(getString(R.string.pref_session_id))!!
         if (android.os.Build.VERSION.SDK_INT >= 26) {
-            getProductTypeInfo.imeiNo = tm!!.getImei()
+//            getProductTypeInfo.imeiNo = tm!!.getImei()
+            getProductTypeInfo.imeiNo = sampleImei
         } else {
-            getProductTypeInfo.imeiNo = tm!!.getDeviceId()
+//            getProductTypeInfo.imeiNo = tm!!.getDeviceId()
+            getProductTypeInfo.imeiNo = sampleImei
         }
 
         // Store JSON Response String to Cache

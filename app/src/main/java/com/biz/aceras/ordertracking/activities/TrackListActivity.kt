@@ -86,9 +86,11 @@ class TrackListActivity : AppCompatActivity() {
 
                         val tm = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
                         if (android.os.Build.VERSION.SDK_INT >= 26) {
-                            trackInfo.imeiNo = tm.getImei()
+//                            trackInfo.imeiNo = tm.getImei()
+                            trackInfo.imeiNo = StandardObjects.sampleImei
                         } else {
-                            trackInfo.imeiNo = tm.getDeviceId()
+//                            trackInfo.imeiNo = tm.getDeviceId()
+                            trackInfo.imeiNo = StandardObjects.sampleImei
                         }
 
                         val retrofit = NetworkClient.getRetrofitClient()
@@ -191,9 +193,11 @@ class TrackListActivity : AppCompatActivity() {
 
             val tm = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
             if (android.os.Build.VERSION.SDK_INT >= 26) {
-                trackInfo.imeiNo = tm.getImei()
+//                trackInfo.imeiNo = tm.getImei()
+                trackInfo.imeiNo = StandardObjects.sampleImei
             } else {
-                trackInfo.imeiNo = tm.getDeviceId()
+//                trackInfo.imeiNo = tm.getDeviceId()
+                trackInfo.imeiNo = StandardObjects.sampleImei
             }
 
             val retrofit = NetworkClient.getRetrofitClient()

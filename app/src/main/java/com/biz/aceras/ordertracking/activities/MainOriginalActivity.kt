@@ -132,7 +132,7 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
 
         image_slider.setItemClickListener(object : ItemClickListener {
             override fun onItemSelected(position: Int) {
-                val intent: Intent = Intent(applicationContext, WebViewFullscreenActivity::class.java)
+                val intent = Intent(applicationContext, WebViewFullscreenActivity::class.java)
                 if (gsonBannerlist.isNotEmpty()) {
                     StandardObjects.webViewURL = gsonBannerlist[position].redirectUrl
                     startActivity(intent)
@@ -199,9 +199,11 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
 
                     val tm = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
                     if (android.os.Build.VERSION.SDK_INT >= 26) {
-                        trackInfo.imeiNo = tm.getImei()
+//                        trackInfo.imeiNo = tm.getImei()
+                        trackInfo.imeiNo = StandardObjects.sampleImei
                     } else {
-                        trackInfo.imeiNo = tm.getDeviceId()
+                        trackInfo.imeiNo = StandardObjects.sampleImei
+//                        trackInfo.imeiNo = tm.getDeviceId()
                     }
 
                     Log.d("TrackRegistrationID", trackInfo.registrationID)
@@ -372,9 +374,11 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
 
                         val tm = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
                         if (Build.VERSION.SDK_INT >= 26) {
-                            trackInfo.imeiNo = tm.getImei()
+//                            trackInfo.imeiNo = tm.getImei()
+                            trackInfo.imeiNo = StandardObjects.sampleImei
                         } else {
-                            trackInfo.imeiNo = tm.getDeviceId()
+//                            trackInfo.imeiNo = tm.getDeviceId()
+                            trackInfo.imeiNo = StandardObjects.sampleImei
                         }
 
                         val retrofit = NetworkClient.getRetrofitClient()
@@ -442,9 +446,11 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
 
             val tm = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
             if (android.os.Build.VERSION.SDK_INT >= 26) {
-                trackInfo.imeiNo = tm.getImei()
+//                trackInfo.imeiNo = tm.getImei()
+                trackInfo.imeiNo = StandardObjects.sampleImei
             } else {
-                trackInfo.imeiNo = tm.getDeviceId()
+//                trackInfo.imeiNo = tm.getDeviceId()
+                trackInfo.imeiNo = StandardObjects.sampleImei
             }
 
             val retrofit = NetworkClient.getRetrofitClient()

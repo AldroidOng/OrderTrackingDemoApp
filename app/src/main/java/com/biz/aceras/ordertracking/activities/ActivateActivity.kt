@@ -17,6 +17,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import com.biz.aceras.ordertracking.*
+import com.biz.aceras.ordertracking.StandardObjects.sampleImei
 import com.biz.aceras.ordertracking.serializer_class.ActivationInfo
 import com.biz.aceras.ordertracking.serializer_class.ResendACInfo
 
@@ -51,9 +52,11 @@ class ActivateActivity : AppCompatActivity(), View.OnClickListener {
                     val progressDialog: ProgressDialog = StandardObjects.showProgressDialog(this@ActivateActivity, "Authenticating...")
                     progressDialog.show()
                     if (android.os.Build.VERSION.SDK_INT >= 26) {
-                        activationInfo.imeiNo = tm.getImei()
+//                        activationInfo.imeiNo = tm.getImei()
+                        activationInfo.imeiNo = sampleImei
                     } else {
-                        activationInfo.imeiNo = tm.getDeviceId()
+//                        activationInfo.imeiNo = tm.getDeviceId()
+                        activationInfo.imeiNo = sampleImei
                     }
 
 //                    // Get Part 1 of the activation code from shared preference

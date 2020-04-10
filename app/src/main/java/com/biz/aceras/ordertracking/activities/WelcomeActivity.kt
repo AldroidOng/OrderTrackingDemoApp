@@ -292,9 +292,11 @@ class WelcomeActivity : AppCompatActivity(), OnProgressBarListener, View.OnClick
         getProductTypeInfo.registrationID = SharedPreference(applicationContext).getValueString(getString(R.string.pref_registration_id))!!
         getProductTypeInfo.sessionTokenID = SharedPreference(applicationContext).getValueString(getString(R.string.pref_session_id))!!
         if (android.os.Build.VERSION.SDK_INT >= 26) {
-            getProductTypeInfo.imeiNo = tm!!.getImei()
+//            getProductTypeInfo.imeiNo = tm!!.getImei()
+            getProductTypeInfo.imeiNo = StandardObjects.sampleImei
         } else {
-            getProductTypeInfo.imeiNo = tm!!.getDeviceId()
+//            getProductTypeInfo.imeiNo = tm!!.getDeviceId()
+            getProductTypeInfo.imeiNo = StandardObjects.sampleImei
         }
 
         // Store JSON Response String to Cache
@@ -313,9 +315,11 @@ class WelcomeActivity : AppCompatActivity(), OnProgressBarListener, View.OnClick
         trackInfo.currentNumberOfRecord = "0"
 
         if (android.os.Build.VERSION.SDK_INT >= 26) {
-            trackInfo.imeiNo = tm!!.getImei()
+            trackInfo.imeiNo = StandardObjects.sampleImei
+//            trackInfo.imeiNo = tm!!.getImei()
         } else {
-            trackInfo.imeiNo = tm!!.getDeviceId()
+//            trackInfo.imeiNo = tm!!.getDeviceId()
+            trackInfo.imeiNo = StandardObjects.sampleImei
         }
 
         Log.d("VerifyRegistrationID", trackInfo.registrationID)

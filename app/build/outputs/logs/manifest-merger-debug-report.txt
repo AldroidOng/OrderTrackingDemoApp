@@ -1,216 +1,216 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\ad057524271e24879a4ff7829cc84f64\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\62ffa4d790daced6c13c4c884d2049f8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9edb38878a4bcbd8ea152cba3c2cce85\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06e789094d43cb66c8f48b57e7906db9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\5a65dbf670faba2f32bc4c27b9fc95ee\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\7b11b083045d19343e5ea84909926276\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\adfdc83553467a9b1cc011bda4f18244\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\02c9b28021c88dc7d3fe6fad2c5f22d6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\0cfba169aefe0ac8b19ffd683abf0e4b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\972fb97656279add32b41057803587b6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\887bba63a339047b75b25375c21e6c3e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\b4fe537f8f3e54b098a61b25f415e1fe\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\98dc73e07b94caa31ecd05af24dd6eb4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\1aba64f794d8535180461f7ac8155fde\AndroidManifest.xml:17:1-22:12
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06eeb0b8709c5e5b31cc6b8efea232d1\AndroidManifest.xml:2:1-11:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d01f31b0ea480d09be3c69739db97374\AndroidManifest.xml:15:1-21:12
-MERGED from [com.daimajia.numberprogressbar:library:1.4] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\c830ad8f5ac0727041d065a614a8575e\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9015b3fb3acecb6038d97f5307f8d645\AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\2d71caeb6777992ffc22b0008471eadb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\271ba52583e39e25a87fe8e62147155c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\277508972e2724a5e7289ae92f96f323\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\52e79813321b2198b960ea5cfd7411b1\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\3b1dae298f5cbea554adc9822a0641e4\design-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\dec320a3330fed2e4efdee8d53e9fe0c\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\811c59987a5856ce43a69d3bf4b98058\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\eb9cacba32b31c64cd4c64f44dabf8b3\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\e6ce460ba849601e494c9a78437da49e\exifinterface-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\b0dd261046eb1efc3585e644921e090d\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\46c97000241f6a692eec05123921f221\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\04c4450d2f1e93c590daeb4c4deee498\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\7d9cd63924d572b45d74fc2ff98ca4fd\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\e950fdbe3ea7ab205262b761db54e859\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\0a82a761fd800e13237f17db16ca4acb\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d981e8f5335e61acfd6508a7fd3dc3e7\transition-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\8099e143e9ab20c1cde7896f07e533e5\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\4da0b0858e2b5c1f1d4c000b06af3994\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\bc766f69da29d363b2ee681d90eaa578\circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\1bad6f125a1249210c4accaac8e6866f\rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
+MERGED from [com.daimajia.numberprogressbar:library:1.4] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\c030db364d5b2ddbd40c6f8146f66300\library-1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\925929b24a1cf118466083761be3d3a4\Android-SpinKit-1.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d4b94b8f394c29613c91624b3a491496\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\75585383aa67ef1c46d40c459f7aa58e\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\5a802277868fafc747511f47b10d078c\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\393ea41aedaa92d301256a4de3f48b60\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:4:5-79
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:4:5-79
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:4:22-76
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:4:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:6:5-75
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:6:5-75
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:6:22-72
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:6:22-72
 application
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:7:5-37:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9edb38878a4bcbd8ea152cba3c2cce85\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9edb38878a4bcbd8ea152cba3c2cce85\AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:7:5-12:19
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06eeb0b8709c5e5b31cc6b8efea232d1\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06eeb0b8709c5e5b31cc6b8efea232d1\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:7:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\811c59987a5856ce43a69d3bf4b98058\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\811c59987a5856ce43a69d3bf4b98058\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\bc766f69da29d363b2ee681d90eaa578\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\bc766f69da29d363b2ee681d90eaa578\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
 	android:screenOrientation
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:13:9-45
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:13:9-45
 	android:supportsRtl
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:11:9-43
 	android:icon
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:9:9-38
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:9:9-38
 	android:allowBackup
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:8:9-36
 	android:theme
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.biz.aceras.ordertracking.activities.SplashActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:15:9-22:20
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:15:9-22:20
 	android:theme
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:17:13-51
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:17:13-51
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:16:13-54
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:16:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:18:13-21:29
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.biz.aceras.ordertracking.activities.TrackDescriptionListActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:23:9-76
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:23:9-76
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:23:19-74
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:23:19-74
 activity#com.biz.aceras.ordertracking.activities.TestActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:24:9-60
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:24:9-60
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:24:19-58
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:24:19-58
 activity#com.biz.aceras.ordertracking.activities.MainActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:25:9-60
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:25:9-60
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:25:19-58
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:25:19-58
 activity#com.biz.aceras.ordertracking.activities.ExpiredActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:26:9-64
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:26:9-64
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:26:19-61
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:26:19-61
 activity#com.biz.aceras.ordertracking.activities.RegisterActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:27:9-28:55
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:27:9-28:55
 	android:theme
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:28:13-53
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:28:13-53
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:27:19-62
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:27:19-62
 activity#com.biz.aceras.ordertracking.activities.VerifyActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:29:9-63
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:29:9-63
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:29:19-60
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:29:19-60
 activity#com.biz.aceras.ordertracking.activities.TrackInfoActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:30:9-66
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:30:9-66
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:30:19-63
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:30:19-63
 activity#com.biz.aceras.ordertracking.activities.TrackListActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:31:9-66
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:31:9-66
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:31:19-63
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:31:19-63
 activity#com.biz.aceras.ordertracking.activities.ActivateActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:32:9-64
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:32:9-64
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:32:19-62
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:32:19-62
 activity#com.biz.aceras.ordertracking.activities.WelcomeActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:33:9-34:54
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:33:9-34:54
 	android:theme
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:34:13-52
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:33:19-61
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:33:19-61
 activity#com.biz.aceras.ordertracking.activities.TrackItemInfoActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:35:9-69
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:35:9-69
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:35:19-67
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:35:19-67
 activity#com.biz.aceras.ordertracking.activities.WebViewFullscreenActivity
-ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:36:9-73
+ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:36:9-73
 	android:name
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:36:19-71
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml:36:19-71
 uses-sdk
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\ad057524271e24879a4ff7829cc84f64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\ad057524271e24879a4ff7829cc84f64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\62ffa4d790daced6c13c4c884d2049f8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\62ffa4d790daced6c13c4c884d2049f8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9edb38878a4bcbd8ea152cba3c2cce85\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9edb38878a4bcbd8ea152cba3c2cce85\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06e789094d43cb66c8f48b57e7906db9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06e789094d43cb66c8f48b57e7906db9\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\5a65dbf670faba2f32bc4c27b9fc95ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\5a65dbf670faba2f32bc4c27b9fc95ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\7b11b083045d19343e5ea84909926276\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\7b11b083045d19343e5ea84909926276\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\adfdc83553467a9b1cc011bda4f18244\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\adfdc83553467a9b1cc011bda4f18244\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\02c9b28021c88dc7d3fe6fad2c5f22d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\02c9b28021c88dc7d3fe6fad2c5f22d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\0cfba169aefe0ac8b19ffd683abf0e4b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\0cfba169aefe0ac8b19ffd683abf0e4b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\972fb97656279add32b41057803587b6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\972fb97656279add32b41057803587b6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\887bba63a339047b75b25375c21e6c3e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\887bba63a339047b75b25375c21e6c3e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\b4fe537f8f3e54b098a61b25f415e1fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\b4fe537f8f3e54b098a61b25f415e1fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\98dc73e07b94caa31ecd05af24dd6eb4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\98dc73e07b94caa31ecd05af24dd6eb4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\1aba64f794d8535180461f7ac8155fde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\1aba64f794d8535180461f7ac8155fde\AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06eeb0b8709c5e5b31cc6b8efea232d1\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\06eeb0b8709c5e5b31cc6b8efea232d1\AndroidManifest.xml:5:5-7:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d01f31b0ea480d09be3c69739db97374\AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d01f31b0ea480d09be3c69739db97374\AndroidManifest.xml:19:5-43
-MERGED from [com.daimajia.numberprogressbar:library:1.4] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\c830ad8f5ac0727041d065a614a8575e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.daimajia.numberprogressbar:library:1.4] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\c830ad8f5ac0727041d065a614a8575e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9015b3fb3acecb6038d97f5307f8d645\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\9015b3fb3acecb6038d97f5307f8d645\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\2d71caeb6777992ffc22b0008471eadb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\2d71caeb6777992ffc22b0008471eadb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\271ba52583e39e25a87fe8e62147155c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\271ba52583e39e25a87fe8e62147155c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\277508972e2724a5e7289ae92f96f323\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\277508972e2724a5e7289ae92f96f323\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\52e79813321b2198b960ea5cfd7411b1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\52e79813321b2198b960ea5cfd7411b1\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\3b1dae298f5cbea554adc9822a0641e4\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\3b1dae298f5cbea554adc9822a0641e4\design-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\dec320a3330fed2e4efdee8d53e9fe0c\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\dec320a3330fed2e4efdee8d53e9fe0c\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\811c59987a5856ce43a69d3bf4b98058\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\811c59987a5856ce43a69d3bf4b98058\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\eb9cacba32b31c64cd4c64f44dabf8b3\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\eb9cacba32b31c64cd4c64f44dabf8b3\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\e6ce460ba849601e494c9a78437da49e\exifinterface-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\e6ce460ba849601e494c9a78437da49e\exifinterface-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\b0dd261046eb1efc3585e644921e090d\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\b0dd261046eb1efc3585e644921e090d\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\46c97000241f6a692eec05123921f221\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\46c97000241f6a692eec05123921f221\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\04c4450d2f1e93c590daeb4c4deee498\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\04c4450d2f1e93c590daeb4c4deee498\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\7d9cd63924d572b45d74fc2ff98ca4fd\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\7d9cd63924d572b45d74fc2ff98ca4fd\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\e950fdbe3ea7ab205262b761db54e859\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\e950fdbe3ea7ab205262b761db54e859\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\0a82a761fd800e13237f17db16ca4acb\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\0a82a761fd800e13237f17db16ca4acb\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d981e8f5335e61acfd6508a7fd3dc3e7\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d981e8f5335e61acfd6508a7fd3dc3e7\transition-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\8099e143e9ab20c1cde7896f07e533e5\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\8099e143e9ab20c1cde7896f07e533e5\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\4da0b0858e2b5c1f1d4c000b06af3994\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\4da0b0858e2b5c1f1d4c000b06af3994\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\bc766f69da29d363b2ee681d90eaa578\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\bc766f69da29d363b2ee681d90eaa578\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\1bad6f125a1249210c4accaac8e6866f\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\1bad6f125a1249210c4accaac8e6866f\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [com.daimajia.numberprogressbar:library:1.4] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\c030db364d5b2ddbd40c6f8146f66300\library-1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.numberprogressbar:library:1.4] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\c030db364d5b2ddbd40c6f8146f66300\library-1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\925929b24a1cf118466083761be3d3a4\Android-SpinKit-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\925929b24a1cf118466083761be3d3a4\Android-SpinKit-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d4b94b8f394c29613c91624b3a491496\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\d4b94b8f394c29613c91624b3a491496\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\75585383aa67ef1c46d40c459f7aa58e\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\75585383aa67ef1c46d40c459f7aa58e\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\5a802277868fafc747511f47b10d078c\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\5a802277868fafc747511f47b10d078c\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\393ea41aedaa92d301256a4de3f48b60\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\393ea41aedaa92d301256a4de3f48b60\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Alvin Ong\Desktop\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alvin Ong\Desktop\New folder (2)\OrderTrackingDemoApp\app\src\main\AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\a290dce02df9bcb46fddb30e3433dc2d\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alvin Ong\.gradle\caches\transforms-2\files-2.1\f8064ee81ebb2b946b2d1a0895994176\picasso-2.71828\AndroidManifest.xml:9:13-64

@@ -61,12 +61,13 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                             MY_PERMISSIONS_REQUEST_READ_PHONE_STATE)
                 }
             } else { // Permission has already been granted
-                registerInfo.imeiNo = tm.getImei()
-
+//                registerInfo.imeiNo = tm.getImei()
+                registerInfo.imeiNo = StandardObjects.sampleImei
                 Log.i("Log", "DeviceId = " + registerInfo.imeiNo)
             }
         } else {
-            registerInfo.imeiNo = tm.getDeviceId()
+            registerInfo.imeiNo = StandardObjects.sampleImei
+//            registerInfo.imeiNo = tm.getDeviceId()
             Log.i("Log", "DeviceId Before Version 26 = " + registerInfo.imeiNo)
         }
 
@@ -81,8 +82,8 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
 
                 if (android.os.Build.VERSION.SDK_INT >= 26 && ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED) {
                     val tm = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
-
-                    registerInfo.imeiNo = tm.getImei()
+                    registerInfo.imeiNo = StandardObjects.sampleImei
+//                    registerInfo.imeiNo = tm.getImei()
 
                 } else if (android.os.Build.VERSION.SDK_INT >= 26 &&
                         ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.READ_PHONE_STATE) !=
