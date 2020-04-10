@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Alvin Ong\\Desktop\\New folder (2)\\OrderTrackingDemoApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\dec320a3330fed2e4efdee8d53e9fe0c\\appcompat-v7-27.1.1\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\850078a4b16561b3f4b01c353ad0f86e\\appcompat-v7-27.1.1\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\4da0b0858e2b5c1f1d4c000b06af3994\\support-compat-27.1.1\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\8014188f67497252af5cb95b5b96e0f0\\support-compat-27.1.1\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

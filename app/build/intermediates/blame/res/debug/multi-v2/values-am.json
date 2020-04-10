@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\Alvin Ong\\Desktop\\New folder (2)\\OrderTrackingDemoApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\dec320a3330fed2e4efdee8d53e9fe0c\\appcompat-v7-27.1.1\\res\\values-am\\values-am.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
-                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
-                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\4da0b0858e2b5c1f1d4c000b06af3994\\support-compat-27.1.1\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\8014188f67497252af5cb95b5b96e0f0\\support-compat-27.1.1\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1882",
                         "endColumns": "100",
                         "endOffsets": "1978"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alvin Ong\\.gradle\\caches\\transforms-2\\files-2.1\\850078a4b16561b3f4b01c353ad0f86e\\appcompat-v7-27.1.1\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,207,306,412,498,601,714,792,870,949,1049,1149,1245,1348,1447,1554,1707,1803",
+                        "endColumns": "101,98,105,85,102,112,77,77,78,99,99,95,102,98,106,152,95,78",
+                        "endOffsets": "202,301,407,493,596,709,787,865,944,1044,1144,1240,1343,1442,1549,1702,1798,1877"
                     }
                 }
             ]
