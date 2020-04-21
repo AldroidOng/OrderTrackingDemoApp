@@ -139,7 +139,7 @@ object StandardObjects {
                     loginInfo.imeiNo = StandardObjects.sampleImei
 //                    loginInfo.imeiNo = tm.getDeviceId()
                 }
-            } else {
+            } else if(!StandardObjects.checkPermissionGranted(context).first) {
                 StandardObjects.checkPermissionGranted(context).second!!.show()
                 StandardObjects.checkPermissionGranted(context).second!!.setOnDismissListener { activity.finish() }
             }
