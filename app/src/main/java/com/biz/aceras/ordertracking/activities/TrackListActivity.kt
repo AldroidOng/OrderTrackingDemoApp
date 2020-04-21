@@ -90,7 +90,7 @@ class TrackListActivity : AppCompatActivity() {
                             trackInfo.imeiNo = StandardObjects.sampleImei
                         } else {
 //                            trackInfo.imeiNo = tm.getDeviceId()
-                            trackInfo.imeiNo = StandardObjects.sampleImei
+//                            trackInfo.imeiNo = StandardObjects.sampleImei
                         }
 
                         val retrofit = NetworkClient.getRetrofitClient()
@@ -197,7 +197,7 @@ class TrackListActivity : AppCompatActivity() {
                 trackInfo.imeiNo = StandardObjects.sampleImei
             } else {
 //                trackInfo.imeiNo = tm.getDeviceId()
-                trackInfo.imeiNo = StandardObjects.sampleImei
+//                trackInfo.imeiNo = StandardObjects.sampleImei
             }
 
             val retrofit = NetworkClient.getRetrofitClient()

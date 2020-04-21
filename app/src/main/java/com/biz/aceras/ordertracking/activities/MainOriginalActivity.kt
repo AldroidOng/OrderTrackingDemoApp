@@ -202,7 +202,7 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
 //                        trackInfo.imeiNo = tm.getImei()
                         trackInfo.imeiNo = StandardObjects.sampleImei
                     } else {
-                        trackInfo.imeiNo = StandardObjects.sampleImei
+//                        trackInfo.imeiNo = StandardObjects.sampleImei
 //                        trackInfo.imeiNo = tm.getDeviceId()
                     }
 
@@ -378,7 +378,7 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
                             trackInfo.imeiNo = StandardObjects.sampleImei
                         } else {
 //                            trackInfo.imeiNo = tm.getDeviceId()
-                            trackInfo.imeiNo = StandardObjects.sampleImei
+//                            trackInfo.imeiNo = StandardObjects.sampleImei
                         }
 
                         val retrofit = NetworkClient.getRetrofitClient()
@@ -450,7 +450,7 @@ class MainOriginalActivity : AppCompatActivity(), View.OnClickListener {
                 trackInfo.imeiNo = StandardObjects.sampleImei
             } else {
 //                trackInfo.imeiNo = tm.getDeviceId()
-                trackInfo.imeiNo = StandardObjects.sampleImei
+//                trackInfo.imeiNo = StandardObjects.sampleImei
             }
 
             val retrofit = NetworkClient.getRetrofitClient()

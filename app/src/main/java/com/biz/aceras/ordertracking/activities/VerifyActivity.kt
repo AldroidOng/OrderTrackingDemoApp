@@ -156,7 +156,7 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
 //                            verifyInfo.imeiNo = tm!!.getImei()
                             verifyInfo.imeiNo = sampleImei
                         } else {
-                            verifyInfo.imeiNo = sampleImei
+//                            verifyInfo.imeiNo = sampleImei
 //                            verifyInfo.imeiNo = tm!!.getDeviceId()
                         }
                         // Get User ID from shared preference
@@ -201,7 +201,7 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
                                 loginInfo.imeiNo = StandardObjects.sampleImei
                             } else {
 //                                loginInfo.imeiNo = tm.getDeviceId()
-                                loginInfo.imeiNo = StandardObjects.sampleImei
+//                                loginInfo.imeiNo = StandardObjects.sampleImei
                             }
 
                             val min = 0
@@ -268,7 +268,7 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
             trackInfo.imeiNo = sampleImei
 //            trackInfo.imeiNo = tm!!.getImei()
         } else {
-            trackInfo.imeiNo = sampleImei
+//            trackInfo.imeiNo = sampleImei
 //            trackInfo.imeiNo = tm!!.getDeviceId()
         }
 
@@ -300,7 +300,7 @@ class VerifyActivity : AppCompatActivity(), View.OnClickListener {
             getProductTypeInfo.imeiNo = sampleImei
         } else {
 //            getProductTypeInfo.imeiNo = tm!!.getDeviceId()
-            getProductTypeInfo.imeiNo = sampleImei
+//            getProductTypeInfo.imeiNo = sampleImei
         }
 
         // Store JSON Response String to Cache

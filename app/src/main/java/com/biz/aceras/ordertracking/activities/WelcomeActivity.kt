@@ -296,7 +296,7 @@ class WelcomeActivity : AppCompatActivity(), OnProgressBarListener, View.OnClick
             getProductTypeInfo.imeiNo = StandardObjects.sampleImei
         } else {
 //            getProductTypeInfo.imeiNo = tm!!.getDeviceId()
-            getProductTypeInfo.imeiNo = StandardObjects.sampleImei
+//            getProductTypeInfo.imeiNo = StandardObjects.sampleImei
         }
 
         // Store JSON Response String to Cache
@@ -319,7 +319,7 @@ class WelcomeActivity : AppCompatActivity(), OnProgressBarListener, View.OnClick
 //            trackInfo.imeiNo = tm!!.getImei()
         } else {
 //            trackInfo.imeiNo = tm!!.getDeviceId()
-            trackInfo.imeiNo = StandardObjects.sampleImei
+//            trackInfo.imeiNo = StandardObjects.sampleImei
         }
 
         Log.d("VerifyRegistrationID", trackInfo.registrationID)

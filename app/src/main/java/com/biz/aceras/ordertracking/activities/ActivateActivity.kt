@@ -56,7 +56,7 @@ class ActivateActivity : AppCompatActivity(), View.OnClickListener {
                         activationInfo.imeiNo = sampleImei
                     } else {
 //                        activationInfo.imeiNo = tm.getDeviceId()
-                        activationInfo.imeiNo = sampleImei
+//                        activationInfo.imeiNo = sampleImei
                     }
 
 //                    // Get Part 1 of the activation code from shared preference
