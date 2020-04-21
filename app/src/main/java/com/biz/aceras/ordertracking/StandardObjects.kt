@@ -136,10 +136,10 @@ object StandardObjects {
 //                    loginInfo.imeiNo = tm.getImei()
                     loginInfo.imeiNo = StandardObjects.sampleImei
                 } else {
-                    loginInfo.imeiNo = StandardObjects.sampleImei
+//                    loginInfo.imeiNo = StandardObjects.sampleImei
 //                    loginInfo.imeiNo = tm.getDeviceId()
                 }
-            } else if(!StandardObjects.checkPermissionGranted(context).first) {
+            } else {
                 StandardObjects.checkPermissionGranted(context).second!!.show()
                 StandardObjects.checkPermissionGranted(context).second!!.setOnDismissListener { activity.finish() }
             }
